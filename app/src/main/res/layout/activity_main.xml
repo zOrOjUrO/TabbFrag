@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="@color/grey_50"
+    android:background="@drawable/bggradient"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/tab_shape"
+        android:elevation="10dp"
+        app:tabGravity="fill"
+        app:tabIndicator="@drawable/tab_indicator"
+        app:tabIndicatorAnimationMode="elastic"
+        app:tabIndicatorColor="@color/black"
+        app:tabIndicatorGravity="stretch"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/orange"
+        app:tabTextColor="@color/grey" />
+
+    <HorizontalScrollView
+        android:id="@+id/filter_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbHorizontal="@drawable/custom_scrollbar"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:paddingEnd="20dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="true"
+                android:paddingHorizontal="15dp"
+                android:text="All Products"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/product_filters"/>
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="false"
+                android:paddingHorizontal="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="false"
+                android:paddingHorizontal="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="false"
+                android:paddingHorizontal="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="false"
+                android:paddingHorizontal="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/prod_check"
+                android:button="@null"
+                android:checked="false"
+                android:paddingHorizontal="15dp"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:queryHint="Search for a Product"
+        android:alpha="0.8"
+        android:background="@drawable/searchbar_style"
+        android:elevation="1dp"
+        android:textAlignment="center"
+        />
+
+    <view class="android.widget.LinearLayout"
+        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:alpha="0.15"
+        android:layout_gravity="top"
+        />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>

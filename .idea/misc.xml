@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/availability_negative.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/availibility_positive.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/bggradient.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/circle.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/custom_scrollbar.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_dashboard_active.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_home_active.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_notification_active.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_products_active.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/ic_whats_active.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/outline_card.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/outline_check_prod.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/outline_check_prod_sel.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/prod_check.xml" value="0.28615384615384615" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/product_availibity.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/scrollbar_cdim.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/searchbar_style.xml" value="0.290625" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/tab_indicator.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/drawable/tab_shape.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/layout/activity_main.xml" value="0.1702970297029703" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/layout/categories_item.xml" value="0.1" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/layout/fragment_a.xml" value="0.264" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/layout/fragment_b.xml" value="0.264" />
+        <entry key="..\:/Users/Gokul/AndroidStudioProjects/TabbFrag/app/src/main/res/layout/products_item.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
